@@ -93,6 +93,18 @@ a {
     display: block;
 }
 
+.tutorial-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Light container for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 button {
     position: absolute;
     top: 50%;
